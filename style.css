@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 10;
+}
+
+@font-face {
+    font-family: HandoTrial ;
+    src: url(fonts/HandoTrial-Bold.otf);
+}
+
+body{
+   margin-top: 100px;
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+   
+}
+
+header{
+    font-family: "HandoTrial", sans-serif;
+    font-size: 19px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    
+}
+
+li{
+    list-style: none; 
+}
+
+a{
+    color: black;
+    text-decoration:solid;
+}
+
+
+
+.nav-container{
+    width: 1280px;
+    margin: auto;
+    
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 1.5rem;
+    
+}
+
+@media(max-width:1920px){
+    .nav-container{
+        width: 100%;
+    }
+    }
+
+
+.text{
+    color: black;
+    font-family: "HandoTrial";
+    font-size: 9px;
+    padding-top: 500px;
+}
+
+.textcheck{
+    font-family: "HandoTrial";
+    margin: 10px;
+}
+
+
+.pagename{
+    font-size: 50px;
+    display: flex;
+    position: relative;
+    padding-top: -500px;
+}
+
+.pagename2{
+    font-size: 70px;
+    display: flex;
+    position: relative;
+    padding-top: -500px;
+    padding-left: 90px;
+}
+
+.paragraphname{
+    font-size: 30px;
+    padding-left: 180px;
+}
+
+.paragraphtext{
+    font-size: 13px;
+    padding-left: 180px;
+    padding-right: 490px;
+    display: flex;
+
+}
+
+.object   {
+
+    position:relative;
+    align-self:center ;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+    mix-blend-mode:overlay;
+}
+
+
+
+
+.footercontainer{
+    width: 80%;
+    height: 10vh;
+    font-family: "HandoTrial";
+    font-size: 9px;
+    padding-left: 10px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100, auto;
+    background-color: none;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-left: 10px;
+}
+
+.video {
+
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+
+}
+
+.videomask{
+    margin-top: 90px;
+    display: flex;
+    align-self: center;
+    width: 500px;
+    height: 281px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#container {
+    display:inline-block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position:relative;
+    margin: 10;
+    width: 50vw;
+    height: 80pt;
+    top: 100;
+    left: 10;
+    bottom: 110px;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "HandoTrial", sans-serif;
+    font-size: 110pt;
+
+    text-align: left;
+
+    user-select: none;
+}
