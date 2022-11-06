@@ -1,0 +1,86 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "HandoTrialBold" ;
+    src: url(fonts/HandoTrial-Bold.otf);
+}
+
+
+
+header{
+    font-family: "HandoTrialBold";
+    font-size: 14px;     
+}
+
+body{
+    position:absolute;
+    text-align:center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+li{
+    list-style: none; 
+}
+
+a{
+    color: black;
+    text-decoration:solid;
+}
+
+.brand{
+    text-align: left;
+    padding-bottom: 1vw;
+    font-size: 9px;
+    align-self: center;
+}
+.topnav{
+    font-size:13px;
+    text-align: right;
+    position: fixed;
+    width: 95%;
+    padding: 50px;
+    z-index: 2;
+}
+
+
+.hello{
+    padding-top: 15vw;
+    font-family: "HandoTrialBold";
+    font-size: 5vw;
+    text-align: left;
+    padding-left: 6vw;
+    padding-right: 20vw;
+    z-index: 1;
+    width: 85%;
+}
+
+
+.paragraphname{
+    font-family: "HandoTrialBold";
+    font-size: 3.5vw;
+    text-align: right;
+    padding-top:5vw;
+    padding-right: 30vw;
+    
+}
+.divider{
+    padding: 10px;
+}
+
+.paragraph{
+    font-family: "HandoTrialBold";
+    font-size: 1.3vw;;
+    text-align: right;
+    padding-left: 40vw;
+    padding-right: 30vw;
+}
+
+footer{
+    padding-top:50vw;
+}
+
