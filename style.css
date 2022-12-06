@@ -50,6 +50,10 @@ body {
   height: 100;
 }
 
+.audiocontainer {
+  align-self: center;
+}
+
 .blog {
   background-color: black;
   display: grid;
