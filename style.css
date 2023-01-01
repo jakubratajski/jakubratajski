@@ -956,6 +956,10 @@ button {
 }
 
 
+
+
+
+
 .dividers{
 	height: 5rem;
 }
@@ -977,6 +981,10 @@ button {
 	}
 
 	#myBtn{
+		background-color: white;
+	}
+
+	#myBtn2{
 		background-color: white;
 	}
 
