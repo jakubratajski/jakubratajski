@@ -939,6 +939,7 @@ button {
 
   }
 
+
   .flags{
 	margin-left: 50px;
 	align-self: center;
@@ -988,4 +989,6 @@ button {
 		background-color: white;
 	}
 
-	
+	.note2{
+		font-size: 0.6rem;
+	}
