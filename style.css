@@ -148,7 +148,7 @@ button {
 	align-items: center;
 	column-gap: 0.5rem;
 	font-weight: var(--font-medium);
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Unbounded', sans-serif;
 	
 	font-weight: 800;
 }
@@ -395,21 +395,21 @@ button {
 /* ABOUT */
 .about__container {
 	row-gap: 2rem;
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 		font-weight: 450;
 		font-size: 0.7rem;
 		text-align: initial;
 }
 .about__data {
 	
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 		font-weight: 450;
 		font-size: 0.7rem;
 		text-align: initial;
 }
 .about__description {
 	margin-bottom: var(--mb-2);
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 		font-weight: 450;
 		font-size: 0.7rem;
 		text-align: initial;
@@ -826,7 +826,6 @@ button {
 
 
 
-
 /* TABLE */
 
 * {
@@ -937,7 +936,7 @@ button {
 
   .more {
 	font-size: 0.7rem;
-	
+	font-family: 'Space Grotesk', sans-serif;
 	
 
   }
@@ -957,6 +956,7 @@ button {
 
 .polaroid{
 	mix-blend-mode:exclusion;
+	border-radius: 37%;
 }
 
 
