@@ -998,4 +998,11 @@ button {
 	}
 
 
-	
+	.gobacktop {
+		margin-bottom: var(--mb-2);
+		font-family: 'Space Grotesk', sans-serif;
+			font-weight: 450;
+			font-size: 0.7rem;
+			text-align: center;
+			color: var(--sub);
+	}
