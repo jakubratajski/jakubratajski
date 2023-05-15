@@ -873,12 +873,12 @@ button {
   
   .bold {
 	font-weight: 800;
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
   }
   
   .right {
 	float: right;
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 0.6rem;
 	font-weight: 300;
   }
@@ -913,7 +913,7 @@ button {
   
   .indent {
 	margin-left: 1em;
-	font-family: 'Unbounded', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 0.7rem;
 
   }
