@@ -956,7 +956,7 @@ button {
 
 
 .polaroid{
-	mix-blend-mode:darken;
+	mix-blend-mode:hard-light;
 	border-radius: 37%;
 }
 
